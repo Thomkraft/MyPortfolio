@@ -1,10 +1,20 @@
 <script>
-    import { Alert } from 'flowbite-svelte';
+    import NavBar from '$lib/components/NavBar.svelte';
+import { Alert } from 'flowbite-svelte';
+import { DarkMode } from 'flowbite-svelte';
   </script>
   
-  <div class="p-8">
-    <Alert>
-      <span class="font-medium">Info alert!</span>
-      Change a few things up and try submitting again.
-    </Alert>
-  </div>
+<header>
+    <NavBar />
+</header>
+
+<main class="min-h-screen h-[200vh] dark:bg-opacity-60 bg-opacity-60 mt-4">
+
+    
+
+    <p>Δεν εσυλλογίσθη το πατρικόν της δώμα, ούτ εσκέφθη καν να καταφύγη εις των βασιλισσών αδελφών της τα ανάκτορα.Ούτε πατρικήν εστίαν ήθελε πλέον, ούτε θωπείας επεθύμει αδελφικάς, εις αντάλλαγμα εκείνων, ων εθρήνει την στέρησιν.</p>
+
+    <p>Τώρα τα δάκρυά της έρρευσαν χωρίς κανείς να τα σπογγίση, και οι στεναγμοί της εξήχησαν χωρίς να ακουσθώσι, μόνη δε η απελπισία ήλθε και εκάθισε σύντροφος αυτής παρά το πλευρόν της.</p>
+
+    <p>Της τρίτης όμως και νεωτάτης η καλλονή ήτο κάλλος υπέρ θνητήν κάλλος εξ εκείνων, άτινα καταπλήττουσι το βλέμμα και αποθαρρύνουσι τον πόθον, αντί δε να εμπνεύσωσιν έρωτα επιβάλλουσι θαυμασμόν και υπαγορεύουσιν άφωνον λατρείαν.</p>
+</main>

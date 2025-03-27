@@ -5,6 +5,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  --color-main: #202020;
   --color-primary-50: #fff5f2;
   --color-primary-100: #fff1ee;
   --color-primary-200: #ffe4de;
@@ -18,3 +19,7 @@
 }
 
 @source "../node_modules/flowbite-svelte/dist";
+
+body {
+    @apply bg-white dark:bg-main;
+}
