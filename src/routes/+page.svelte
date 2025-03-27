@@ -1,20 +1,31 @@
 <script>
-    import NavBar from '$lib/components/NavBar.svelte';
+	import AboutMe from '$lib/components/AboutMe.svelte';
+import NavBar from '$lib/components/NavBar.svelte';
 import { Alert } from 'flowbite-svelte';
 import { DarkMode } from 'flowbite-svelte';
+import { Hr,Heading,Span,P } from 'flowbite-svelte';
   </script>
-  
-<header>
-    <NavBar />
-</header>
 
-<main class="min-h-screen h-[200vh] dark:bg-opacity-60 bg-opacity-60 mt-4">
 
-    
+<NavBar />
 
-    <p>Δεν εσυλλογίσθη το πατρικόν της δώμα, ούτ εσκέφθη καν να καταφύγη εις των βασιλισσών αδελφών της τα ανάκτορα.Ούτε πατρικήν εστίαν ήθελε πλέον, ούτε θωπείας επεθύμει αδελφικάς, εις αντάλλαγμα εκείνων, ων εθρήνει την στέρησιν.</p>
+<main class="min-h-screen h-[200vh] bg-opacity-60 mt-30">
 
-    <p>Τώρα τα δάκρυά της έρρευσαν χωρίς κανείς να τα σπογγίση, και οι στεναγμοί της εξήχησαν χωρίς να ακουσθώσι, μόνη δε η απελπισία ήλθε και εκάθισε σύντροφος αυτής παρά το πλευρόν της.</p>
+    <div class="title flex flex-col items-center text-center justify-center mt-20 mb-20">
 
-    <p>Της τρίτης όμως και νεωτάτης η καλλονή ήτο κάλλος υπέρ θνητήν κάλλος εξ εκείνων, άτινα καταπλήττουσι το βλέμμα και αποθαρρύνουσι τον πόθον, αντί δε να εμπνεύσωσιν έρωτα επιβάλλουσι θαυμασμόν και υπαγορεύουσιν άφωνον λατρείαν.</p>
+        <Heading tag="h1" class="mb-4" customSize="text-3xl font-bold  md:text-4xl lg:text-5xl">
+            <Span >Thomas Koenig</Span>
+        </Heading>
+
+        <Heading tag="h2" class="mb-4" customSize="text-2xl font-bold  md:text-2xl lg:text-3xl">
+            <Span>Étudiant en BUT informatique</Span>
+        </Heading>
+
+    </div>
+
+
+    <AboutMe />
+
 </main>
+
+  

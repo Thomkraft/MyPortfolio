@@ -9,15 +9,18 @@
 
 
   
-<Navbar color="form" fluid=true class="sticky top-0 backdrop-blur-md bg-opacity-60 bg-white dark:bg-main">
+<Navbar color="transparent" 
+        fluid={true} 
+        class="fixed top-0 w-full backdrop-blur-lg bg-white/20 dark:bg-main/20 border-b border-gray-300 dark:border-gray-700 shadow-lg z-50">
     
     <NavHamburger/>
-    <NavUl class="text-lg"> 
-        <NavLi href="/" active={true} class="text-lg">Home</NavLi>
-        <NavLi href="/about" class="text-lg">About</NavLi>
-        <NavLi href="/docs/components/navbar" class="text-lg">Navbar</NavLi>
-        <NavLi href="/pricing" class="text-lg">Pricing</NavLi>
-        <NavLi href="/contact" class="text-lg">Contact</NavLi>
+    <NavUl class="text-lg "> 
+        <NavLi href="/" active={true} class="text-lg">A Propos</NavLi>
+        <NavLi href="/about" class="text-lg">Projets</NavLi>
+        <NavLi href="/docs/components/navbar" class="text-lg">Compétences</NavLi>
+        <!-- A mettre quand j'aurais fait le stage -->
+        <!-- <NavLi href="/pricing" class="text-lg">Expériences</NavLi>  -->
+        <NavLi href="/contact" class="text-lg">Me contacter</NavLi>
     </NavUl>
     
 
