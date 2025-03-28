@@ -6,8 +6,6 @@
     import { DarkMode } from 'flowbite-svelte';
 
   </script>
-
-
   
 <Navbar color="transparent" 
         fluid={true} 
