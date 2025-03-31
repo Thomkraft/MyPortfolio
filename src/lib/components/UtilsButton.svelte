@@ -5,6 +5,8 @@
 
     let isLoading = false;
 
+    export let onComplete = () => {};
+
     async function DownloadCV() {
         isLoading = true;
 
@@ -18,6 +20,8 @@
             document.body.removeChild(link);
 
             isLoading = false;
+
+            onComplete();
         }, 1500); // Simule un court délai pour l'effet loading
     }
 </script>
@@ -30,6 +34,4 @@
             <AddressBookSolid class="mr-2" /> Télécharger mon CV
         {/if}
     </GradientButton>
-
-    <GradientButton href="/" shadow color="blue" size="xl"><MessageCaptionSolid class="mr-2"/>Me contacter</GradientButton>
 </div>

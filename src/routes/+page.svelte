@@ -12,6 +12,9 @@ import { onMount } from 'svelte';
 import BurgerMenu from '$lib/components/BurgerMenu.svelte';
   
 let isMobile = false;
+let showBurger = false;
+let scrollOnTopButton = false;
+
 
 //detect screen size
 const checkScreenSize = () => {
@@ -23,11 +26,18 @@ onMount(() => {
 checkScreenSize();
 window.addEventListener('resize', checkScreenSize); 
 
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+        showBurger = true;
+    } else {
+        showBurger = false;
+    }
+});
+
 return () => {
     window.removeEventListener('resize', checkScreenSize);
 };
 });
-
 </script>
 
 
@@ -64,9 +74,10 @@ return () => {
             <AboutMe />
         </div>
         
-        <BurgerMenu />
+        {#if showBurger}
+            <BurgerMenu />
+        {/if}
     </div>
-
     
 
 </main>
