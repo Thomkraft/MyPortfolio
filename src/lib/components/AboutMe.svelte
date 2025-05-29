@@ -31,7 +31,12 @@
     <div class="Buttons flex flex-col gap-5 justify-center items-center">
         <UtilsButton />
 
-        <GradientButton href="/" shadow color="blue" size="xl"><MessageCaptionSolid class="mr-2"/>Me contacter</GradientButton>
+        <GradientButton href="/" shadow color="blue" size="xl" class="transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-blue-600">
+            <MessageCaptionSolid
+                    class="mr-2"
+            />
+            Me contacter
+        </GradientButton>
     </div>
 
 </div>
