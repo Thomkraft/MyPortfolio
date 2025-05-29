@@ -5,6 +5,14 @@
 
     import { DarkMode } from 'flowbite-svelte';
 
+    function scrollToSection(id) {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
+
   </script>
   
 <Navbar color="transparent" 
@@ -14,11 +22,11 @@
     <NavHamburger/>
     <NavUl class="text-lg "> 
         <NavLi href="/" active={true} class="text-lg">A Propos</NavLi>
-        <NavLi href="/about" class="text-lg">Projets</NavLi>
-        <NavLi href="/docs/components/navbar" class="text-lg">Compétences</NavLi>
+        <NavLi on:click={() => scrollToSection('projects')} class="text-lg">Projets</NavLi>
+        <NavLi href="#" class="text-lg">Compétences</NavLi>
         <!-- A mettre quand j'aurais fait le stage -->
         <!-- <NavLi href="/pricing" class="text-lg">Expériences</NavLi>  -->
-        <NavLi href="/contact" class="text-lg">Me contacter</NavLi>
+        <NavLi href="#" class="text-lg">Me contacter</NavLi>
     </NavUl>
     
 
