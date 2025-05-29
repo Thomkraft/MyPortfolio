@@ -1,0 +1,75 @@
+{
+  "navAbout": "About",
+  "navProject": "Projects",
+  "navSkills": "Skills",
+  "navContact": "Contact Me",
+
+  "aboutMe": {
+    "title": "About Me",
+    "description": "Computer Science Student",
+    "presentation": "Presentation Presentation Presentation Presentation Presentation Presentation Presentation Presentation Presentation Presentation PresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentation"
+  },
+
+  "dlCV": "Download my resume",
+  "contactMe": "Contact Me",
+  "scrollUp": "Scroll to top",
+
+  "showMore": "Show more",
+  "showLess": "Show less",
+  "moreInformations": "Click for more information",
+
+  "IutSkillsTitle": "Related Skills",
+
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while.",
+      "details": "It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while. \n\n It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while. \n\n It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while.",
+      "links": "https://github.com/Thomkraft/MyPortfolio",
+      "tags": ["#HTML", "#CSS", "#JavaScript"],
+      "image": [
+        "/projectImages/image-projet-1.png"
+      ],
+      "skills": [
+        {
+          "title": "Implement (Level 3): Adapt applications to various platforms (CE1.01)",
+          "description": "Complete overhaul of a critical interface in C#/WPF, adapted to an existing codebase. Implemented AC31.01 (architecture choice) and AC31.02 (evolving existing applications)."
+        },
+        {
+          "title": "Implement (Level 3): Develop user interfaces (CE1.04)",
+          "description": "Design of a user-friendly GUI in WPF/XAML with automatic validation, related to AC21.02 (accessibility) and AC11.04 (UI design)."
+        },
+        {
+          "title": "Optimize (Level 3): Analyze and optimize applications (CE2.03)",
+          "description": "Secured XML files through multi-key dynamic encryption, meeting AC22.03 (data security) and AC32.02 (code analysis)."
+        }
+      ]
+    },
+    {
+      "title": "Project 1",
+      "description": "It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while.",
+      "details": "It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while. \n\n It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while. \n\n It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while.",
+      "link": "https://github.com/Thomkraft/MyPortfolio",
+      "tags": ["#HTML", "#CSS", "#JavaScript"],
+      "image": [
+        "/projectImages/image-projet-1.png"
+      ],
+      "skills": [
+        {
+          "title": "Implement (Level 3): Adapt applications to various platforms (CE1.01)",
+          "description": "Complete overhaul of a critical interface in C#/WPF, adapted to an existing codebase. Implemented AC31.01 (architecture choice) and AC31.02 (evolving existing applications)."
+        },
+        {
+          "title": "Implement (Level 3): Develop user interfaces (CE1.04)",
+          "description": "Design of a user-friendly GUI in WPF/XAML with automatic validation, related to AC21.02 (accessibility) and AC11.04 (UI design)."
+        },
+        {
+          "title": "Optimize (Level 3): Analyze and optimize applications (CE2.03)",
+          "description": "Secured XML files through multi-key dynamic encryption, meeting AC22.03 (data security) and AC32.02 (code analysis)."
+        }
+      ]
+    },
+    {},
+    {}
+  ]
+}

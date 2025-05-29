@@ -33,6 +33,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"svelte-i18n": "^4.0.1",
 		"svelte-inview": "^4.0.4"
 	}
 }
