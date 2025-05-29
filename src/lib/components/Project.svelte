@@ -2,6 +2,10 @@
     import { Hr, Heading } from 'flowbite-svelte';
 	import ProjectCard from './ProjectCard.svelte';
 
+    let visibleCount = 3; // Nombre d'éléments visibles initialement
+    let numberAddedShowMore = 3; // Nombre d'éléments à ajouter à chaque clic sur "Afficher plus"
+    let minVisibleProjects = 3; // Nombre minimum de projets à afficher
+
     const ProjectList = [
         {
             title: "Projet 1",
@@ -53,32 +57,64 @@
         {
 
         },
+        {
+
+        },
     ];
+
+    function showMore() {
+        visibleCount += numberAddedShowMore;
+    }
+
+    function showLess() {
+        visibleCount = Math.max(minVisibleProjects, visibleCount - numberAddedShowMore);
+    }
 </script>
 
 
-<!-- Colonne Gauche : Texte -->
+<!-- Section Projets -->
 <div class="ProjectsSection flex flex-col justify-start mt-20 ml-35">
 
     <Heading tag="h1" class="" customSize="text-3xl font-bold md:text-4xl lg:text-5xl">
         <span class="text-transparent bg-clip-text bg-gradient-to-br from-pink to-orange">Projets</span>
     </Heading>
-    
+
     <Hr classHr="w-1/2 h-1 rounded-sm dark:bg-orange bg-orange mb-10" />
-    
+
     <div class="ml-15">
-        {#each ProjectList as project}
-            <ProjectCard 
-                description={project.description}
-                link={project.link}
-                tag={project.tag}
-                image={project.image}
-                competences={project.competences}
-                title={project.title}
-                details="{project.details}"
+        {#each ProjectList.slice(0, visibleCount) as project}
+            <ProjectCard
+                    title={project.title}
+                    description={project.description}
+                    link={project.link}
+                    tag={project.tag}
+                    image={project.image}
+                    competences={project.competences}
+                    details={project.details}
             />
         {/each}
-        
+
+        {#if visibleCount < ProjectList.length || visibleCount > minVisibleProjects}
+            <div class="flex justify-center gap-4 mt-6">
+                {#if visibleCount < ProjectList.length}
+                    <button
+                            on:click={showMore}
+                            class="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-lg transform transition-all duration-300 hover:scale-105 shadow-lg"
+                    >
+                        Afficher plus
+                    </button>
+                {/if}
+
+                {#if visibleCount > minVisibleProjects}
+                    <button
+                            on:click={showLess}
+                            class="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold rounded-lg transform transition-all duration-300 hover:scale-105 shadow-lg"
+                    >
+                        Afficher moins
+                    </button>
+                {/if}
+            </div>
+        {/if}
+
     </div>
-    
 </div>
