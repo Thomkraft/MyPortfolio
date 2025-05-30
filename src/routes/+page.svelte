@@ -3,14 +3,18 @@ import AboutMe from '$lib/components/AboutMe.svelte';
 import NavBar from '$lib/components/NavBar.svelte';
 import { Hr,Heading,Span } from 'flowbite-svelte';
 
-
 import { onMount } from 'svelte';
 import BurgerMenu from '$lib/components/BurgerMenu.svelte';
-	import Project from '$lib/components/Project.svelte';
-  
+import Project from '$lib/components/Project.svelte';
+import { _ } from '$lib/changeLanguage.js';
+import {locale} from "$lib/changeLanguage.js";
+
 let isMobile = false;
 let showBurger = false;
 
+$: if (!$locale) {
+    locale.set('fr');
+}
 
 //detect screen size
 const checkScreenSize = () => {
@@ -19,17 +23,18 @@ isMobile = window.innerWidth < 1024;
 
 // Initial check and update if screen size changes
 onMount(() => {
-checkScreenSize();
-window.addEventListener('resize', checkScreenSize); 
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
 
-window.addEventListener('scroll', () => {
-    showBurger = window.scrollY > 100;
+    window.addEventListener('scroll', () => {
+        showBurger = window.scrollY > 100;
+    });
+
+    return () => {
+        window.removeEventListener('resize', checkScreenSize);
+    };
 });
 
-return () => {
-    window.removeEventListener('resize', checkScreenSize);
-};
-});
 </script>
 
 
@@ -45,7 +50,6 @@ return () => {
                 <img class="w-3/4 max-h-[80%]" src="/blank-profile.png" alt="Picture_of_me">
             </div>
         {/if}
-        
 
         <div class="flex flex-col w-3/4 justify-start gap-20">
             
@@ -54,7 +58,7 @@ return () => {
                     <Span>Thomas Koenig</Span>
                 </Heading>
                 <Heading tag="h2" class="mb-1" customSize="text-2xl font-bold md:text-2xl lg:text-3xl">
-                    <Span>Étudiant en BUT informatique</Span>
+                    <Span>{$_("aboutMe.description")}</Span>
                 </Heading>
             </div>
 

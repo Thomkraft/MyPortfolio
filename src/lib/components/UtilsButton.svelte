@@ -1,6 +1,7 @@
 <script>
     import { GradientButton,Spinner } from 'flowbite-svelte';
     import { AddressBookSolid } from 'flowbite-svelte-icons';
+    import { _ } from '$lib/changeLanguage.js';
 
     let isLoading = false;
 
@@ -36,7 +37,7 @@
         {#if isLoading}
             <Spinner class="me-3" size="4" color="white"/>Loading ...
         {:else }
-            <AddressBookSolid class="mr-2" /> Télécharger mon CV
+            <AddressBookSolid class="mr-2" /> {$_("dlCV")}
         {/if}
     </GradientButton>
 
