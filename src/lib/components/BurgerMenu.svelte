@@ -2,7 +2,6 @@
     import { ArrowUpOutline, DownloadSolid } from 'flowbite-svelte-icons';
     import { fade } from "svelte/transition";
     import { _ } from "$lib/changeLanguage.js";
-
 </script>
 
 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" in:fade={{ duration: 250 }} out:fade={{ duration: 250 }}>
