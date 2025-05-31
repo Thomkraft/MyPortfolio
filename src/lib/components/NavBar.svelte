@@ -13,8 +13,9 @@
     })
 
     function setLanguage() {
-        const current = get(locale);
-        locale.set(current === 'fr' ? 'en' : 'fr');
+        const current = get(locale).slice(0, 2); // ne garder que "fr" ou "en"
+        const newLang = current === 'fr' ? 'en' : 'fr';
+        locale.set(newLang);
     }
 
     function scrollToSection(id) {
