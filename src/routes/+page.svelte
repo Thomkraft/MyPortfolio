@@ -37,15 +37,17 @@ onMount(() => {
     };
 });
 
+// TODO Faire pour des ecrans plus grand / mobile (responsive)
+
 </script>
 
 
 <NavBar />
 
 
-<main class="flex flex-col">
+<main id="home" class="flex flex-col">
     
-    <div class="First-screen h-screen bg-opacity-60 mt-40 flex flex-col items-start lg:flex-row">
+    <div  class="First-screen h-screen bg-opacity-60 mt-40 flex flex-col items-start lg:flex-row">
 
         {#if !isMobile }
             <div class="image flex justify-center items-center w-1/4 h-2/3">
