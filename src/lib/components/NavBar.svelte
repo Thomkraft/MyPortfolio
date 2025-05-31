@@ -34,7 +34,7 @@
     <NavUl class="text-lg">
         <NavLi href="/" active={true} class="text-lg">{$_("navAbout")}</NavLi>
         <NavLi on:click={() => scrollToSection('projects')} class="text-lg">{$_("navProject")}</NavLi>
-        <NavLi href="#" class="text-lg">{$_("navSkills")}</NavLi>
+        <NavLi on:click={() => scrollToSection('skills')} class="text-lg">{$_("navSkills")}</NavLi>
         <!-- <NavLi href="/pricing" class="text-lg">{$_("navSkills")}</NavLi> -->
         <NavLi href="#" class="text-lg">{$_("navContact")}</NavLi>
     </NavUl>

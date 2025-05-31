@@ -16,13 +16,16 @@
     }
 </script>
 
-
+<!-- TODO Tout recentrer parceque la ya rien qui va -->
 <!-- Section Projets -->
 <div class="ProjectsSection flex flex-col justify-start mt-20 ml-35">
 
-    <Heading tag="h1" class="" customSize="text-3xl font-bold md:text-4xl lg:text-5xl">
-        <span class="text-transparent bg-clip-text bg-gradient-to-br from-pink to-orange">{$_("navProject")}</span>
+    <Heading tag="h1" class="" customSize="text-4xl font-bold md:text-5xl lg:text-8xl">
+        <span class="text-transparent bg-clip-text bg-gradient-to-br from-pink to-orange">
+            {$_("navProject")}
+        </span>
     </Heading>
+
 
     <Hr classHr="w-1/2 h-1 rounded-sm dark:bg-orange bg-orange mb-10" />
 
