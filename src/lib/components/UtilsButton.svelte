@@ -2,6 +2,7 @@
     import { GradientButton,Spinner } from 'flowbite-svelte';
     import { AddressBookSolid } from 'flowbite-svelte-icons';
     import { _ } from '$lib/changeLanguage.js';
+    import { base } from '$app/paths';
 
     let isLoading = false;
 
@@ -13,7 +14,7 @@
         // Attendre un court instant pour simuler un chargement
         setTimeout(() => {
             const link = document.createElement('a');
-            link.href = '/cv-koenig-thomas.pdf';
+            link.href = base + '/cv-koenig-thomas.pdf';
             link.download = 'Thomas_Koenig_CV.pdf';
             document.body.appendChild(link);
             link.click();

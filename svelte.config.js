@@ -7,7 +7,7 @@ const config = {
 			assets: 'build',
 			fallback: 'index.html',
 			precompress: false,
-			strict: false // 👈
+			strict: false
 		}),
 		paths: {
 			base: '/MyPortfolio',
