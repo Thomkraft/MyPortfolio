@@ -20,6 +20,8 @@
 
   "IutSkillsTitle": "Compétences lié",
 
+  "filter": "Filtre",
+
   "projects": [
     {
       "title": "Projet 1",
@@ -76,5 +78,4 @@
 
     }
   ]
-
 }

@@ -1,11 +1,12 @@
 <script>
 import AboutMe from '$lib/components/AboutMe.svelte';
 import NavBar from '$lib/components/NavBar.svelte';
-import { Hr,Heading,Span } from 'flowbite-svelte';
+import { Heading,Span } from 'flowbite-svelte';
 
 import { onMount } from 'svelte';
 import BurgerMenu from '$lib/components/BurgerMenu.svelte';
 import Project from '$lib/components/Project.svelte';
+import Skills from '$lib/components/Skills.svelte';
 import { _ } from '$lib/changeLanguage.js';
 import {locale} from "$lib/changeLanguage.js";
 
@@ -78,10 +79,13 @@ onMount(() => {
             {/if}
         </div>
     </div>
-    
-    <div id="projects" class="Project-section flex flex-col h-300 scroll-mt-20">
-        <Hr classHr="w-50% h-1 my-4 rounded-sm mb-5 dark:bg-orange bg-orange" />    
+
+    <div id="projects" class="Project-section flex flex-col scroll-mt-20 mb-20">
         <Project />
+    </div>
+
+    <div id="skills" class="Skills-section flex flex-col scroll-mt-20">
+        <Skills />
     </div>
     
 
