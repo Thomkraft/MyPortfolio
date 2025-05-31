@@ -2,6 +2,7 @@
 import AboutMe from '$lib/components/AboutMe.svelte';
 import NavBar from '$lib/components/NavBar.svelte';
 import { Heading,Span } from 'flowbite-svelte';
+import { base } from '$app/paths';
 
 import { onMount } from 'svelte';
 import BurgerMenu from '$lib/components/BurgerMenu.svelte';
@@ -48,7 +49,7 @@ onMount(() => {
 
         {#if !isMobile }
             <div class="image flex justify-center items-center w-1/4 h-2/3">
-                <img class="w-3/4 max-h-[80%]" src="/blank-profile.png" alt="Picture_of_me">
+                <img class="w-3/4 max-h-[80%]" src="{base}/blank-profile.png" alt="Picture_of_me">
             </div>
         {/if}
 

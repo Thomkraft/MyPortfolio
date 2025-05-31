@@ -1,6 +1,7 @@
 <script>
     import { fade } from 'svelte/transition';
     import { _, locale } from '$lib/changeLanguage.js';
+    import { base } from '$app/paths';
 
     export let title = "";
     export let description = "";
@@ -88,7 +89,7 @@
     <!-- Section Image -->
     <div class="image-container w-full md:w-2/5 flex items-center justify-center relative">
         <div class="bg-white/5 backdrop-blur-sm p-3 rounded-xl shadow-inner">
-            <img src="{image}" alt={title} class="project-image max-w-full max-h-64 object-contain rounded-lg" />
+            <img src="{base}{image}" alt={title} class="project-image max-w-full max-h-64 object-contain rounded-lg" />
         </div>
     </div>
 
@@ -138,7 +139,7 @@
                         <div class="h-[3px] w-2/5 bg-orange-500 mt-2 rounded-full"></div>
                     </div>
                     <img
-                            src="{image}"
+                            src="{base}{image}"
                             alt="{title}"
                             class="w-full max-h-80 object-contain rounded-lg mb-6"
                     />
