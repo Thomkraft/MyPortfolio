@@ -4,7 +4,7 @@
     import { skills } from "$lib/data/skills.js";
 
     let selectedCategory = "All";
-    let visibleLines = 4;
+    let visibleLines = 3;
     const skillsPerLine = 5;
     const minVisibleLines = 2;
 
@@ -27,7 +27,7 @@
     }
 </script>
 <!-- TODO clique sur un skill ca affiche lien des projets qui lutilises (si possible)-->
-<!-- TODO metre a jour les data -->
+
 <!-- TODO Pas faire bouger toute la page quand ya moins de lignes -->
 <div class="SkillsSection flex flex-col items-center gap-10 mt-20">
     <!-- Grille de compétences -->
@@ -69,7 +69,7 @@
                 <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6 rounded-xl shadow-md flex flex-col items-center w-full min-h-[180px]">
                     <img
                             loading="lazy"
-                            src={`/logos/${skill.category.toLowerCase()}/${skill.name.toLowerCase().replace(/\s+/g, "")}.svg`}
+                            src={`/logos/${skill.category.toLowerCase()}/${skill.name.toLowerCase().replace(/\s+/g, "")}.png`}
                             alt={skill.name}
                             class="w-20 h-20 mb-3 object-contain"
                             on:error={(e) => {
