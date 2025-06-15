@@ -15,17 +15,6 @@
 
     let showModal = false;
 
-    function tagColor(tags) {
-        switch (tags.toLowerCase()) {
-            case '#html': return 'red-500';
-            case '#css': return 'blue-500';
-            case '#javascript': return 'yellow-400';
-            case '#php': return 'purple-500';
-            case '#vue': return 'green-500';
-            default: return 'pink-500';
-        }
-    }
-
     function openModal() {
         showModal = true;
         window.addEventListener('keydown', handleEscape);
@@ -45,15 +34,15 @@
 <button
         type="button"
         on:click={openModal}
-        class="min-h-[320px] project-card w-full max-w-5xl flex flex-col mb-10 md:flex-row items-start p-6 rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white gap-6 shadow-xl hover:shadow-2xl transition-all cursor-pointer relative group transform hover:scale-105 duration-300 overflow-visible"
+        class="min-h-[320px] project-card w-full max-w-5xl flex flex-col mb-10 md:flex-row items-start p-6 rounded-2xl bg-gradient-to-br bg-white dark:text-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-black gap-6 shadow-xl hover:shadow-2xl transition-all cursor-pointer relative group transform hover:scale-105 duration-300 overflow-visible"
 >
 
     <!-- Details Section -->
     <div class="flex flex-col justify-between w-full md:w-3/5 h-full">
         <div>
             <div class="flex items-center gap-3">
-                <h2 class="text-4xl font-extrabold tracking-wide transition-colors bg-clip-text group-hover:text-transparent group-hover:bg-gradient-to-br group-hover:from-pink-500 group-hover:to-orange-500">
-                    {title}
+                <h2 class="text-2xl pb-2 font-extrabold tracking-wide transition-colors bg-clip-text group-hover:text-transparent group-hover:bg-gradient-to-br group-hover:from-pink-500 group-hover:to-orange-500">
+                    {@html title}
                 </h2>
                 {#if link}
                     <a href={link} target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-orange-500 transition-colors" aria-label="GitHub Repository" on:click|stopPropagation>
@@ -67,17 +56,17 @@
             </div>
             <div
                     class="h-[3px] bg-orange-500 mb-5 rounded-full transition-all duration-300"
-                    style="width: {$locale === 'en' ? '38%' : '33%'}"
+                    style="width: 95%"
             ></div>
 
-            <p class="text-lg text-justify mb-6 leading-relaxed text-gray-300">{description}</p>
+            <p class="text-lg text-justify mb-6 leading-relaxed text-gray-300">{@html description}</p>
         </div>
 
         <!-- Tags alignés en bas -->
         <!-- Tags positionnés en bas gauche -->
         <div class="flex flex-wrap gap-2 mt-auto">
         {#each tags as t}
-        <span class="px-3 py-1 text-sm font-medium bg-{tagColor(t)} text-black bg-opacity-20 backdrop-blur-sm rounded-full border border-{tagColor(t)}">
+        <span class="px-3 py-1 text-sm font-medium bg-blue-500 text-black bg-opacity-20 backdrop-blur-sm rounded-full border border-blue-500">
             {t}
         </span>
             {/each}
@@ -112,7 +101,7 @@
             transition:fade={{ duration: 400 }}
     >
         <div
-                class="bg-gray-900 rounded-2xl p-8 max-w-[80rem] w-full max-h-[90vh] overflow-y-auto relative"
+                class="bg-white dark:text-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-black rounded-2xl p-8 max-w-[80rem] w-full max-h-[90vh] overflow-y-auto relative"
                 on:click|stopPropagation
                 transition:fade={{ duration: 400 }}
         >
@@ -131,19 +120,19 @@
                 <div class="w-full md:w-1/2">
                     <div class="flex-1 mb-6">
                         <h2
-                                class="text-5xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-pink to-orange"
+                                class="text-2xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-pink to-orange"
                         >
-                            {title}
+                            {@html title}
                         </h2>
 
-                        <div class="h-[3px] w-2/5 bg-orange-500 mt-2 rounded-full"></div>
+                        <div class="h-[3px] w-95% bg-orange-500 mt-2 rounded-full"></div>
                     </div>
                     <img
                             src="{base}{image}"
                             alt="{title}"
                             class="w-full max-h-80 object-contain rounded-lg mb-6"
                     />
-                    <p class="text-gray-300 whitespace-pre-line">{details}</p>
+                    <p class="text-gray-300 whitespace-pre-line">{@html details}</p>
                 </div>
 
                 <!-- Partie droite : barre verticale + Related Skills + compétences -->
@@ -154,7 +143,7 @@
                     <!-- Colonne Related Skills + compétences -->
                     <div class="flex-1 flex flex-col">
                         <h2
-                                class="text-5xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-pink to-orange"
+                                class="text-2xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-pink to-orange"
                         >
                             {$_("IutSkillsTitle")}
                         </h2>

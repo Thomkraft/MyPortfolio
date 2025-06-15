@@ -3,12 +3,13 @@
   "navProject": "Projets",
   "navSkills": "Compétences",
   "navContact": "Me Contacter",
+  "navExperiences": "Expériences",
 
   "aboutMe": {
     "title": "À propos de moi",
     "description": "Étudiant en BUT informatique",
-    "presentation": "Presentation Presentation Presentation Presentation Presentation Presentation Presentation Presentation Presentation Presentation PresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentation"
-    },
+    "presentation": "Bonjour, je m’appelle Thomas Koenig, j’ai 20 ans et je suis actuellement en 2ᵉ année de BUT Informatique à l’IUT Lyon 1.<br>Je suis passionné d’informatique depuis plusieurs années, et je m’intéresse tout particulièrement au développement web et logiciel.<br>Je suis également très impliqué dans l’univers de la réalité virtuelle (VR), que je pratique à haut niveau dans un cadre compétitif, ce qui m’a appris à travailler en équipe, à me fixer des objectifs précis, et à persévérer.<br>Curieux, autonome et rigoureux, j’aime apprendre de nouvelles technologies et les mettre en œuvre dans des projets concrets, qu’ils soient personnels ou professionnels.<br>Je suis actuellement à la recherche de nouvelles opportunités pour continuer à progresser, relever des défis techniques et contribuer à des projets innovants."
+  },
 
   "dlCV" : "Télécharger mon CV",
   "contactMe": "Me contacter",
@@ -22,13 +23,33 @@
 
   "filter": "Filtre",
 
+  "FirstName": "Prénom",
+  "LastName": "Nom",
+  "Email": "E-mail",
+  "Object": "Objet",
+  "Message": "Message",
+  "Send": "Envoyer",
+  "Phone": "Téléphone",
+  "Business": "Entreprise",
+
   "projects": [
     {
-      "title": "Projet 1",
-      "description": "Ça ne Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’extérieur. Les portes sont bloquées. Ce blocaus est complètement hermétique. Et je le suis autant, pas la peine de gaspiller vos salives. Pensez plutôt à vous installer confortablement, vous êtes ici pour un bon moment.",
-      "details": "Ça ne servira à Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’extérieur. Les portes sont bloquées. Ce blocaus est complètement hermétique. Et je le suis autant, pas la peine de gaspiller vos salives. Pensez plutôt à vous insta \n \n Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’extérieur. Les portes sont bloquées. Ce blocaus est complètement hermétique. Et je le suis autant, pas la peine de gaspiller vos salives. Pensez plutôt à vous insta \n \n  Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’extérieur. Les portes sont bloquées. Ce blocaus est complètement hermétique. Et je le suis autant, pas la peine de gaspiller vos salives. Pensez plutôt à vous installer confortablement, vous êtes ici pour un bon moment.",
-      "links": "https://github.com/Thomkraft/MyPortfolio",
-      "tags": ["#HTML", "#CSS", "JavaScript"],
+      "title": "Studea - Application de gestion d'alternant",
+      "description": "Studea est une application web de gestion d’alternants développée avec Symfony et Vue.js. <br>Elle permet d’administrer les informations des alternants via une interface dynamique, avec lecture de fichiers CSV/XML, routes AJAX, gestion d’erreurs et affichage sous forme de tableaux modulables. L’ensemble a été conçu dans un environnement agile avec Git pour le suivi de version.",
+      "details": "Studea est une application web développée en Symfony (API) et Vue.js (frontend) visant à faciliter la gestion des alternants au sein d’une entreprise.<br>Elle centralise les informations des alternants et permet une manipulation dynamique des données via des interfaces modernes et interactives.<br><br>Durant mon stage, j’ai participé à l’ajout et à l’amélioration de nombreuses fonctionnalités, notamment l’implémentation de tableaux dynamiques liés à l’API Symfony,<br>l’utilisation de routes AJAX pour optimiser la réactivité de l’interface, ainsi que la lecture et le traitement automatisé de fichiers CSV et XML.<br>J’ai aussi travaillé sur la gestion d’erreurs côté frontend et backend pour améliorer la fiabilité de l’application.<br><br>J’ai contribué à rendre l’application plus ergonomique en adaptant l’interface utilisateur, et en intégrant des tests pour valider les nouvelles fonctionnalités.<br>Tout le projet s’est déroulé selon une méthode agile avec un suivi rigoureux via Git.<br>Cette expérience m’a permis de renforcer mes compétences fullstack tout en découvrant les enjeux d’une application métier dans un contexte professionnel.",
+      "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile", "Entreprise"],
+      "image": [
+        "/projectImages/image-projet-1.png"
+      ],
+      "skills": [
+      ]
+    },
+    {
+      "title": "SmartDesk - Application de gestion d’agenda",
+      "description": "SmartDesk est une application web de gestion d’agenda et de productivité développée en Svelte et Node.js.<br> Elle intègre un calendrier interactif, un gestionnaire de tâches, des widgets personnalisés (notes, musique, etc.) et une interface responsive. Ce projet, mené en équipe dans un cadre agile, m’a permis de travailler sur le design global et la gestion des widgets.",
+      "details": "SmartDesk est une application collaborative de gestion d’agenda et de productivité, développée avec Svelte pour le front-end et Node.js pour le back-end.<br> Réalisée en équipe de quatre étudiants dans un contexte agile, l’application permet aux utilisateurs d’organiser leurs tâches, de gérer un calendrier, de prendre des notes et d’utiliser des widgets interactifs comme un lecteur musical.<br>J’ai principalement contribué à la conception de la page de gestion de compte et de connection, en assurant leur interactivité et leur adaptabilité à tous les formats d’écran. <br>Ce projet m’a permis de renforcer mes compétences en développement web fullstack, en ergonomie et en gestion de projet.",
+      "link": "https://github.com/Thomkraft/SmartDesk",
+      "tags": ["HTML", "CSS", "JavaScript", "Svelte", "NodeJs", "TailwindCSS", "GitHub", "Git", "MySQL", "Agile"],
       "image": [
         "/projectImages/image-projet-1.png"
       ],
@@ -48,34 +69,42 @@
       ]
     },
     {
-      "title": "Projet 1",
-      "description": "Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’extérieur. Les portes sont bloquées. Ce blocaus est complètement hermétique. Et je le suis autant, pas la peine de gaspiller vos salives. Pensez plutôt à vous installer confortablement, vous êtes ici pour un bon moment.",
-      "details": "Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communicationsÇa ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’ vers l’extérieur. Les portes sont bloquées. Ce blocaus est complètement hermétique. Et je le suis autant, pas la peine de gaspiller vos salives. Pensez plutôt à vous insta \n \n Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’extérieur. Les portes sont bloquées. Ce blocaus est complètement hermétique. Et je le suis autant, pas la peine de gaspiller vos salives. Pensez plutôt à vous insta \n \n  Ça ne servira à rien, repris Prélude. J’ai en effet coupé toutes les communications vers l’extérieur. Les portes sont bloquées. Ce blocaus est complètement hermétique. Et je le suis autant, pas la peine de gaspiller vos salives. Pensez plutôt à vous installer confortablement, vous êtes ici pour un bon moment.",
-      "link": "https://github.com/Thomkraft/MyPortfolio",
-      "tags": ["#HTML", "#CSS", "#JavaScript","#HTML","#HTML","#HTML","#HTML","#test","#test","#test","#testObligétestObligétestObligétestObligétestObligétestObligé"],
+      "title": "SAE JAVA – Visualisation de graphes et évitement de collision d’avions",
+      "description": "Application Java Swing permettant la création, la coloration et la visualisation de graphes représentant l’espace aérien français, avec pour objectif la modélisation de l’évitement des collisions entre avions.",
+      "details": "Ce projet universitaire en équipe, réalisé dans le cadre d’une SAE, avait pour objectif de concevoir une application Java Swing modélisant l’espace aérien et simulant l’évitement de collisions entre avions à l’aide de graphes colorés et d’algorithmes dédiés.<br><br>L’application permet de charger des données de vols et d’aéroports, de générer un graphe des trajectoires, et d’y appliquer des algorithmes de coloration pour limiter les conflits. L’interface graphique, développée avec Swing, permet de visualiser et manipuler le graphe, d’importer/exporter les données et d’obtenir des statistiques sur les risques de collision.<br><br>J’ai principalement développé la logique d'import des CSV et les calculs des risques de colision entre les vols.<br><br>Ce projet m’a permis de renforcer mes compétences en Java, en conception d’interfaces, en algorithmique et en travail d’équipe.",
+      "link": "https://github.com/Thomkraft/projet-crash",
+      "tags": ["Java", "Swing", "Graphe", "Algo", "Interface graphique", "GitHub"],
+      "image": [
+          "/projectImages/image-projet-1.png"
+      ],
+      "skills": [
+
+      ]
+    },
+    {
+      "title": "PanierVIP – Site de gestion de liste de courses",
+      "description": "Application web développée avec PHP et Symfony permettant de gérer des listes de courses de manière collaborative : création de comptes, gestion et partage de paniers, suivi des achats en temps réel.",
+      "details": "Projet réalisé en équipe dans le cadre d’une SAE, visant à développer une application Java Swing pour modéliser l’espace aérien et simuler l’évitement de collisions à l’aide de graphes et d’algorithmes de coloration.<br><br>L’application permet de charger des vols, de générer un graphe de trajectoires et d’analyser les conflits potentiels.<br><br>J’ai principalement géré l’import des fichiers CSV et le calcul des risques de collision.<br><br>Ce projet m’a permis de consolider mes compétences en Java, algorithmique et travail en équipe.",
+      "link": "https://github.com/Thomkraft/PanierVip",
+      "tags": ["PHP", "Symfony", "Twig", "HTML", "CSS", "MySQL", "GitHub"],
       "image": [
         "/projectImages/image-projet-1.png"
       ],
       "skills": [
-        {
-          "title": "Implement (Level 3): Adapt applications to various platforms (CE1.01)",
-          "description": "Complete overhaul of a critical interface in C#/WPF, adapted to an existing codebase. Implemented AC31.01 (architecture choice) and AC31.02 (evolving existing applications)."
-        },
-        {
-          "title": "Implement (Level 3): Develop user interfaces (CE1.04)",
-          "description": "Design of a user-friendly GUI in WPF/XAML with automatic validation, related to AC21.02 (accessibility) and AC11.04 (UI design)."
-        },
-        {
-          "title": "Optimize (Level 3): Analyze and optimize applications (CE2.03)",
-          "description": "Secured XML files through multi-key dynamic encryption, meeting AC22.03 (data security) and AC32.02 (code analysis)."
-        }
+
       ]
-    },
-    {
+    }
+  ],
 
-    },
+  "experiences": [
     {
-
+      "title": "EffetB - Stage Developpement Web",
+      "date": "14 Avril 2025 - 11 Juillet 2025",
+      "description": "Participation au développement d’une application de gestion d’alternants utilisant Symfony et Vue.js.<br>Mise en place de tableaux dynamiques avec Symfony et gestion efficace des routes AJAX.<br>Implémentation du traitement de fichiers CSV et XML, avec une gestion rigoureuse des erreurs et des tests.<br>Optimisation de l’ergonomie pour une meilleure expérience utilisateur.<br>Travail en méthode agile, avec un suivi de projet et gestion du versioning via Git.",
+      "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile"],
+      "image": [
+        "/projectImages/image-projet-1.png"
+      ]
     }
   ]
 }

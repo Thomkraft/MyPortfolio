@@ -36,8 +36,8 @@
         <NavLi on:click={() => scrollToSection('home')} active={true} class="text-lg cursor-pointer">{$_("navAbout")}</NavLi>
         <NavLi on:click={() => scrollToSection('projects')} class="text-lg cursor-pointer">{$_("navProject")}</NavLi>
         <NavLi on:click={() => scrollToSection('skills')} class="text-lg cursor-pointer">{$_("navSkills")}</NavLi>
-        <NavLi href="#" class="text-lg cursor-pointer">{$_("navSoftSkills")}</NavLi>
-        <NavLi href="#" class="text-lg cursor-pointer">{$_("navContact")}</NavLi>
+        <NavLi on:click={() => scrollToSection('experiences')} class="text-lg cursor-pointer">{$_("navExperiences")}</NavLi>
+        <NavLi on:click={() => scrollToSection('contact')} class="text-lg cursor-pointer">{$_("navContact")}</NavLi>
     </NavUl>
 
 

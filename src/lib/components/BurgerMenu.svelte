@@ -2,14 +2,15 @@
     import { ArrowUpOutline, DownloadSolid } from 'flowbite-svelte-icons';
     import { fade } from "svelte/transition";
     import { _ } from "$lib/changeLanguage.js";
+    import { base } from '$app/paths';
 </script>
 
 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" in:fade={{ duration: 250 }} out:fade={{ duration: 250 }}>
 
     <!-- Bouton pour télécharger le CV -->
     <a
-            href="/cv-koenig-thomas.pdf"
-            download="cv-koenig-thomas.pdf"
+            href="{base}/cv-koenig-thomas.pdf"
+            download="Thomas_Koenig_CV.pdf"
             title={$_("dlCV")}
             class="fixed bottom-24 right-4 z-50 p-2 w-15 h-15 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
     >

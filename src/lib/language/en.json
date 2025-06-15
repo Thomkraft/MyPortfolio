@@ -3,14 +3,15 @@
   "navProject": "Projects",
   "navSkills": "Skills",
   "navContact": "Contact Me",
+  "navExperiences": "Experiences",
 
   "aboutMe": {
     "title": "About Me",
-    "description": "Computer Science Student",
-    "presentation": "Presentation Presentation Presentation Presentation Presentation Presentation Presentation Presentation Presentation Presentation PresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentationPresentation"
+    "description": "Student in Computer Science",
+    "presentation": "Hello, my name is Thomas Koenig, I am 20 years old and currently in the 2nd year of a Computer Science BUT degree at IUT Lyon 1.<br>I have been passionate about computer science for several years, with a particular interest in web and software development.<br>I am also deeply involved in the world of virtual reality (VR), which I practice competitively at a high level, teaching me teamwork, goal-setting, and perseverance.<br>Curious, autonomous, and rigorous, I enjoy learning new technologies and applying them in concrete projects, whether personal or professional.<br>I am currently looking for new opportunities to keep improving, take on technical challenges, and contribute to innovative projects."
   },
 
-  "dlCV": "Download my resume",
+  "dlCV" : "Download my CV",
   "contactMe": "Contact Me",
   "scrollUp": "Scroll to top",
 
@@ -22,13 +23,32 @@
 
   "filter": "Filter",
 
+  "FirstName": "First Name",
+  "LastName": "Last Name",
+  "Email": "Email",
+  "Object": "Subject",
+  "Message": "Message",
+  "Send": "Send",
+  "Phone": "Phone",
+  "Business": "Company",
+
   "projects": [
     {
-      "title": "Project 1",
-      "description": "It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while.",
-      "details": "It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while. \n\n It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while. \n\n It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while.",
-      "links": "https://github.com/Thomkraft/MyPortfolio",
-      "tags": ["#HTML", "#CSS", "#JavaScript"],
+      "title": "Studea - Apprentice Management Application",
+      "description": "Studea is a web application for managing apprentices developed with Symfony and Vue.js. <br>It allows the administration of apprentice information through a dynamic interface, with CSV/XML file reading, AJAX routes, error handling, and display in modular tables. The whole was designed in an agile environment with Git for version control.",
+      "details": "Studea is a web application developed in Symfony (API) and Vue.js (frontend) aimed at facilitating the management of apprentices within a company.<br>It centralizes apprentice information and allows dynamic data manipulation via modern and interactive interfaces.<br><br>During my internship, I participated in adding and improving numerous features, including implementing dynamic tables linked to the Symfony API,<br>using AJAX routes to optimize interface responsiveness, as well as automated reading and processing of CSV and XML files.<br>I also worked on error management on both frontend and backend to improve the application's reliability.<br><br>I helped make the application more ergonomic by adapting the user interface and integrating tests to validate new features.<br>The entire project was conducted using an agile method with rigorous tracking via Git.<br>This experience strengthened my fullstack skills while discovering the challenges of a business application in a professional context.",
+      "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile", "Enterprise"],
+      "image": [
+        "/projectImages/image-projet-1.png"
+      ],
+      "skills": []
+    },
+    {
+      "title": "SmartDesk - Agenda Management Application",
+      "description": "SmartDesk is a web application for agenda and productivity management developed with Svelte and Node.js.<br>It integrates an interactive calendar, task manager, customizable widgets (notes, music, etc.) and a responsive interface. This project, carried out in a team within an agile framework, allowed me to work on the overall design and widget management.",
+      "details": "SmartDesk is a collaborative agenda and productivity management application, developed with Svelte for the frontend and Node.js for the backend.<br>Built by a team of four students in an agile context, the application enables users to organize tasks, manage a calendar, take notes, and use interactive widgets such as a music player.<br>I mainly contributed to designing the account management and login pages, ensuring their interactivity and adaptability to all screen sizes.<br>This project helped me strengthen my fullstack web development, ergonomics, and project management skills.",
+      "link": "https://github.com/Thomkraft/SmartDesk",
+      "tags": ["HTML", "CSS", "JavaScript", "Svelte", "NodeJs", "TailwindCSS", "GitHub", "Git", "MySQL", "Agile"],
       "image": [
         "/projectImages/image-projet-1.png"
       ],
@@ -48,30 +68,38 @@
       ]
     },
     {
-      "title": "Project 1",
-      "description": "It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while.",
-      "details": "It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while. \n\n It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while. \n\n It’s useless, said Prelude again. I’ve cut all external communications. The doors are locked. This blockhouse is completely sealed. And so am I, don’t waste your breath. You might as well settle in, you’re here for a while.",
-      "link": "https://github.com/Thomkraft/MyPortfolio",
-      "tags": ["#HTML", "#CSS", "#JavaScript"],
+      "title": "JAVA SAE – Graph Visualization and Airplane Collision Avoidance",
+      "description": "Java Swing application allowing the creation, coloring and visualization of graphs representing French airspace, aiming to model collision avoidance between airplanes.",
+      "details": "This university group project, part of a SAE, aimed to design a Java Swing application modeling airspace and simulating collision avoidance between airplanes using colored graphs and dedicated algorithms.<br><br>The application allows loading flight and airport data, generating trajectory graphs, and applying coloring algorithms to limit conflicts. The graphical interface, developed with Swing, lets users visualize and manipulate the graph, import/export data, and get collision risk statistics.<br><br>I mainly developed the CSV import logic and the collision risk calculations between flights.<br><br>This project helped me strengthen my Java skills, interface design, algorithms, and teamwork.",
+      "link": "https://github.com/Thomkraft/projet-crash",
+      "tags": ["Java", "Swing", "Graph", "Algorithm", "Graphical Interface", "GitHub"],
       "image": [
         "/projectImages/image-projet-1.png"
       ],
-      "skills": [
-        {
-          "title": "Implement (Level 3): Adapt applications to various platforms (CE1.01)",
-          "description": "Complete overhaul of a critical interface in C#/WPF, adapted to an existing codebase. Implemented AC31.01 (architecture choice) and AC31.02 (evolving existing applications)."
-        },
-        {
-          "title": "Implement (Level 3): Develop user interfaces (CE1.04)",
-          "description": "Design of a user-friendly GUI in WPF/XAML with automatic validation, related to AC21.02 (accessibility) and AC11.04 (UI design)."
-        },
-        {
-          "title": "Optimize (Level 3): Analyze and optimize applications (CE2.03)",
-          "description": "Secured XML files through multi-key dynamic encryption, meeting AC22.03 (data security) and AC32.02 (code analysis)."
-        }
-      ]
+      "skills": []
     },
-    {},
-    {}
+    {
+      "title": "PanierVIP – Grocery List Management Website",
+      "description": "Web application developed with PHP and Symfony allowing collaborative grocery list management: account creation, basket management and sharing, real-time purchase tracking.",
+      "details": "Team project as part of a SAE, aimed at developing a Java Swing application to model airspace and simulate collision avoidance using graphs and coloring algorithms.<br><br>The application allows loading flights, generating trajectory graphs, and analyzing potential conflicts.<br><br>I mainly managed file imports (CSV) and collision risk calculation.<br><br>This project helped me consolidate my skills in Java, algorithms, and teamwork.",
+      "link": "https://github.com/Thomkraft/PanierVip",
+      "tags": ["PHP", "Symfony", "Twig", "HTML", "CSS", "MySQL", "GitHub"],
+      "image": [
+        "/projectImages/image-projet-1.png"
+      ],
+      "skills": []
+    }
+  ],
+
+  "experiences": [
+    {
+      "title": "EffetB - Web Development Internship",
+      "date": "April 14, 2025 - July 11, 2025",
+      "description": "Participated in the development of an apprentice management application using Symfony and Vue.js.<br>Implemented dynamic tables with Symfony and efficient AJAX route management.<br>Handled CSV and XML file processing, with rigorous error management and testing.<br>Optimized ergonomics for a better user experience.<br>Worked in an agile method, with project tracking and version control using Git.",
+      "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile"],
+      "image": [
+        "/projectImages/image-projet-1.png"
+      ]
+    }
   ]
 }
