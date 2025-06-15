@@ -33,7 +33,7 @@
             <ProjectCard
                     title={project.title}
                     description={project.description}
-                    link={project.links}
+                    link={project.link}
                     tags={project.tags}
                     image={project.image}
                     skills={project.skills}

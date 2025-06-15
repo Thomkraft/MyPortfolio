@@ -27,7 +27,7 @@
                     <h2 class="text-3xl pb-0 font-extrabold tracking-wide transition-colors bg-clip-text group-hover:text-transparent group-hover:bg-gradient-to-br group-hover:from-pink-500 group-hover:to-orange-500">
                         {title}
                     </h2>
-                    <p class="text-gray-300 transition-colors group-hover:text-orange-500 mt-1">
+                    <p class="text-black dark:text-white transition-colors group-hover:text-orange-500 mt-1">
                         {date}
                     </p>
                 </div>
@@ -46,7 +46,7 @@
                     style="width: 95%"
             ></div>
 
-            <p class="text-lg text-justify mb-6 leading-relaxed text-gray-300">{@html description}</p>
+            <p class="text-lg text-justify mb-6 leading-relaxed text-black dark:text-white">{@html description}</p>
         </div>
 
         <!-- Tags alignés en bas -->

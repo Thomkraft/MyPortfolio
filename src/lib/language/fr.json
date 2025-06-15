@@ -39,9 +39,29 @@
       "details": "Studea est une application web développée en Symfony (API) et Vue.js (frontend) visant à faciliter la gestion des alternants au sein d’une entreprise.<br>Elle centralise les informations des alternants et permet une manipulation dynamique des données via des interfaces modernes et interactives.<br><br>Durant mon stage, j’ai participé à l’ajout et à l’amélioration de nombreuses fonctionnalités, notamment l’implémentation de tableaux dynamiques liés à l’API Symfony,<br>l’utilisation de routes AJAX pour optimiser la réactivité de l’interface, ainsi que la lecture et le traitement automatisé de fichiers CSV et XML.<br>J’ai aussi travaillé sur la gestion d’erreurs côté frontend et backend pour améliorer la fiabilité de l’application.<br><br>J’ai contribué à rendre l’application plus ergonomique en adaptant l’interface utilisateur, et en intégrant des tests pour valider les nouvelles fonctionnalités.<br>Tout le projet s’est déroulé selon une méthode agile avec un suivi rigoureux via Git.<br>Cette expérience m’a permis de renforcer mes compétences fullstack tout en découvrant les enjeux d’une application métier dans un contexte professionnel.",
       "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile", "Entreprise"],
       "image": [
-        "/projectImages/image-projet-1.png"
+        "/projectImages/studea.png"
       ],
       "skills": [
+        {
+          "title": "Réaliser (niveau 3) : Faire évoluer une application existante (CE1.02)",
+          "description": "Ajout de nouvelles fonctionnalités dans un code existant (upload CSV, tableaux dynamique, systeme de modèle)."
+        },
+        {
+          "title": "Optimiser (niveau 3) : Améliorer l’ergonomie d’une interface (CE2.01)",
+          "description": "Refonte des composants Vue.js avec tri, pagination, responsive design et gestion des erreurs utilisateur."
+        },
+        {
+          "title": "Administrer (niveau 2) : Mettre en place une API REST sécurisée (CE3.02)",
+          "description": "Travail sur les contrôleurs Symfony, la validation des données et la sécurisation des échanges avec le frontend."
+        },
+        {
+          "title": "Gérer (niveau 3) : Participer à une gestion de projet en entreprise (CE4.03)",
+          "description": "Participation aux réunions avec le chef de projet et maitre de stage, découpage des tâches avec Git."
+        },
+        {
+          "title": "Collaborer (Niveau 2) : Situer son rôle dans une équipe (CE6.02)",
+          "description": "Travail en équipe avec un développeur senior, partage des connaissances et revue de code."
+        }
       ]
     },
     {
@@ -51,20 +71,32 @@
       "link": "https://github.com/Thomkraft/SmartDesk",
       "tags": ["HTML", "CSS", "JavaScript", "Svelte", "NodeJs", "TailwindCSS", "GitHub", "Git", "MySQL", "Agile"],
       "image": [
-        "/projectImages/image-projet-1.png"
+        "/projectImages/smartdesk.png"
       ],
       "skills": [
         {
-          "title": "Implement (Level 3): Adapt applications to various platforms (CE1.01)",
-          "description": "Complete overhaul of a critical interface in C#/WPF, adapted to an existing codebase. Implemented AC31.01 (architecture choice) and AC31.02 (evolving existing applications)."
+          "title": "Réaliser (niveau 3) : Développer une application fullstack (CE1.01)",
+          "description": "Implémentation de pages d’authentification, gestion des widgets et intégration front/back en SvelteKit et Node.js."
         },
         {
-          "title": "Implement (Level 3): Develop user interfaces (CE1.04)",
-          "description": "Design of a user-friendly GUI in WPF/XAML with automatic validation, related to AC21.02 (accessibility) and AC11.04 (UI design)."
+          "title": "Optimiser (niveau 2) : Organiser les composants d'une application web (CE2.01)",
+          "description": "Structuration modulaire des composants Svelte pour optimiser le code et la maintenabilité."
         },
         {
-          "title": "Optimize (Level 3): Analyze and optimize applications (CE2.03)",
-          "description": "Secured XML files through multi-key dynamic encryption, meeting AC22.03 (data security) and AC32.02 (code analysis)."
+          "title": "Administrer (niveau 1) : Mettre en place la persistance des données (CE3.01)",
+          "description": "Connexion à une base de données MySQL pour le stockage des tâches, utilisateurs et paramètres."
+        },
+        {
+          "title": "Gérer (niveau 2) : Organiser le développement en mode agile (CE4.01)",
+          "description": "Réunions régulières d’équipe, suivi des tâches avec Trello et GitHub, sprints hebdomadaires."
+        },
+        {
+          "title": "Conduire (niveau 2) : Identifier des solutions adaptées à des besoins (CE5.01)",
+          "description": "Conception des fonctionnalités en réponse à un besoin de gestion de productivité étudiante."
+        },
+        {
+          "title": "Entreprendre (niveau 2) : Présenter un projet numérique (CE6.02)",
+          "description": "Pitch de l’application devant un jury, avec démonstration en live et explication du workflow technique."
         }
       ]
     },
@@ -75,10 +107,25 @@
       "link": "https://github.com/Thomkraft/projet-crash",
       "tags": ["Java", "Swing", "Graphe", "Algo", "Interface graphique", "GitHub"],
       "image": [
-          "/projectImages/image-projet-1.png"
+          "/projectImages/projetCrash.png"
       ],
       "skills": [
-
+        {
+          "title": "Réaliser (niveau 3) : Choisir et implémenter les architectures adaptées (CE1.01)",
+          "description": "Conception et implémentation d’une interface graphique avec Swing, intégration de la logique des graphes et gestion de fichiers CSV."
+        },
+        {
+          "title": "Optimiser (niveau 2) : Choisir des structures de données complexes adaptées au problème (CE2.02)",
+          "description": "Choix et implémentation de structures de graphes efficaces pour le traitement et la visualisation."
+        },
+        {
+          "title": "Gérer (niveau 2) : Organiser son travail en équipe (CE4.02)",
+          "description": "Travail collaboratif en binôme sur la répartition des fonctionnalités techniques."
+        },
+        {
+          "title": "Conduire (niveau 2) : Identifier les besoins utilisateurs (CE5.01)",
+          "description": "Compréhension du cahier des charges fourni dans la SAE, traduction en solutions algorithmiques."
+        }
       ]
     },
     {
@@ -88,10 +135,29 @@
       "link": "https://github.com/Thomkraft/PanierVip",
       "tags": ["PHP", "Symfony", "Twig", "HTML", "CSS", "MySQL", "GitHub"],
       "image": [
-        "/projectImages/image-projet-1.png"
+        "/projectImages/panierVIP.png"
       ],
       "skills": [
-
+        {
+          "title": "Réaliser (niveau 3) : Choisir et implémenter les architectures adaptées (CE1.01)",
+          "description": "Développement complet d’une application Symfony/Twig avec gestion d’état et de persistance des données."
+        },
+        {
+          "title": "Optimiser (niveau 2) : Choisir des structures de données complexes adaptées au problème (CE2.01)",
+          "description": "Conception de la base de données, relation entre utilisateurs et paniers, et requêtes SQL complexes."
+        },
+        {
+          "title": "Administrer (Niveau 2) : Déployer des services dans une architecture réseau (CE3.02)",
+          "description": "Déploiement de l'application sur un serveur local avec gestion des dépendances Symfony."
+        },
+        {
+          "title": "Gérer (Niveau 1) : Concevoir et mettre en place une base de données à partir d'un cahier des charges client (CE4.01)",
+          "description": "Modélisation et intégration d’une base MySQL, gestion des relations et des contraintes"
+        },
+        {
+          "title": "Entreprendre (niveau 2) : Valoriser un projet dans un contexte professionnel (CE6.03)",
+          "description": "Présentation formelle du projet lors d’un oral d’évaluation avec support visuel et démonstration."
+        }
       ]
     }
   ],
@@ -103,7 +169,7 @@
       "description": "Participation au développement d’une application de gestion d’alternants utilisant Symfony et Vue.js.<br>Mise en place de tableaux dynamiques avec Symfony et gestion efficace des routes AJAX.<br>Implémentation du traitement de fichiers CSV et XML, avec une gestion rigoureuse des erreurs et des tests.<br>Optimisation de l’ergonomie pour une meilleure expérience utilisateur.<br>Travail en méthode agile, avec un suivi de projet et gestion du versioning via Git.",
       "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile"],
       "image": [
-        "/projectImages/image-projet-1.png"
+        "/projectImages/effetB.png"
       ]
     }
   ]
