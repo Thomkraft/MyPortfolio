@@ -10,6 +10,7 @@
   --color-blue: #38BBEE;
   --color-pink: #EE38BB;
   --color-green: #BBEE38;
+  --color-bar: #2D3748;
 }
 
 @source "../node_modules/flowbite-svelte/dist";

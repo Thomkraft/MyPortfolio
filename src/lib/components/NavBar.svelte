@@ -13,8 +13,9 @@
     })
 
     function setLanguage() {
-        const current = get(locale);
-        locale.set(current === 'fr' ? 'en' : 'fr');
+        const current = get(locale).slice(0, 2); // ne garder que "fr" ou "en"
+        const newLang = current === 'fr' ? 'en' : 'fr';
+        locale.set(newLang);
     }
 
     function scrollToSection(id) {
@@ -32,11 +33,11 @@
     <NavHamburger />
 
     <NavUl class="text-lg">
-        <NavLi href="/" active={true} class="text-lg">{$_("navAbout")}</NavLi>
-        <NavLi on:click={() => scrollToSection('projects')} class="text-lg">{$_("navProject")}</NavLi>
-        <NavLi on:click={() => scrollToSection('skills')} class="text-lg">{$_("navSkills")}</NavLi>
-        <!-- <NavLi href="/pricing" class="text-lg">{$_("navSkills")}</NavLi> -->
-        <NavLi href="#" class="text-lg">{$_("navContact")}</NavLi>
+        <NavLi on:click={() => scrollToSection('home')} active={true} class="text-lg cursor-pointer">{$_("navAbout")}</NavLi>
+        <NavLi on:click={() => scrollToSection('projects')} class="text-lg cursor-pointer">{$_("navProject")}</NavLi>
+        <NavLi on:click={() => scrollToSection('skills')} class="text-lg cursor-pointer">{$_("navSkills")}</NavLi>
+        <NavLi on:click={() => scrollToSection('experiences')} class="text-lg cursor-pointer">{$_("navExperiences")}</NavLi>
+        <NavLi on:click={() => scrollToSection('contact')} class="text-lg cursor-pointer">{$_("navContact")}</NavLi>
     </NavUl>
 
 

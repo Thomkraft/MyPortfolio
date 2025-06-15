@@ -3,6 +3,13 @@
     import { MessageCaptionSolid } from 'flowbite-svelte-icons';
 	import UtilsButton from './UtilsButton.svelte';
     import { _ } from '$lib/changeLanguage.js';
+
+    function scrollToSection(id) {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 </script>
 
 <div class="AboutMe grid grid-cols-1 md:grid-cols-2 gap-10 items-center mx-15 justify-center">
@@ -17,7 +24,7 @@
 
         <div class="Description w-50% ml-5 mr-5 text-justify break-words">
             <P>
-                {$_("aboutMe.presentation")}
+                {@html $_("aboutMe.presentation")}
             </P>
         </div>
 
@@ -27,7 +34,7 @@
     <div class="Buttons flex flex-col gap-5 justify-center items-center">
         <UtilsButton />
 
-        <GradientButton href="/" shadow color="blue" size="xl" class="transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-blue-600">
+        <GradientButton on:click={() => scrollToSection('contact')} shadow color="blue" size="xl" class="transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-blue-600">
             <MessageCaptionSolid
                     class="mr-2"
             />

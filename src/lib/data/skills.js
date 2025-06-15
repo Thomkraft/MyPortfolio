@@ -17,7 +17,6 @@ export const skills = [
 
     { name: 'BootStrap', category: 'FrameWorks', progress: 80 },
     { name: 'Flowbite', category: 'FrameWorks', progress: 80 },
-    { name: 'NodeJS', category: 'FrameWorks', progress: 80 },
     { name: 'Svelte', category: 'FrameWorks', progress: 80 },
     { name: 'TailwindCSS', category: 'FrameWorks', progress: 80 },
     { name: 'VueJS', category: 'FrameWorks', progress: 95 },
