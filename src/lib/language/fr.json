@@ -8,7 +8,7 @@
   "aboutMe": {
     "title": "À propos de moi",
     "description": "Étudiant en BUT informatique",
-    "presentation": "Bonjour, je m’appelle Thomas Koenig, j’ai 20 ans et je suis actuellement en 2ᵉ année de BUT Informatique à l’IUT Lyon 1.<br>Je suis passionné d’informatique depuis plusieurs années, et je m’intéresse tout particulièrement au développement web et logiciel.<br>Je suis également très impliqué dans l’univers de la réalité virtuelle (VR), que je pratique à haut niveau dans un cadre compétitif, ce qui m’a appris à travailler en équipe, à me fixer des objectifs précis, et à persévérer.<br>Curieux, autonome et rigoureux, j’aime apprendre de nouvelles technologies et les mettre en œuvre dans des projets concrets, qu’ils soient personnels ou professionnels.<br>Je suis actuellement à la recherche de nouvelles opportunités pour continuer à progresser, relever des défis techniques et contribuer à des projets innovants."
+    "presentation": "Je m’appelle Thomas Koenig, étudiant en 2ᵉ année de BUT Informatique à l’IUT Lyon 1. Passionné par le développement web et logiciel, je pratique la VR en compétition, ce qui m’a appris à travailler en équipe et à viser l’excellence. Curieux et autonome, je cherche à progresser en relevant de nouveaux défis techniques. Je suis prêt à m’investir dans des projets concrets et innovants."
   },
 
   "dlCV": "Télécharger mon CV",
@@ -61,6 +61,64 @@
         {
           "title": "Collaborer (niveau 2) : Situer son rôle dans une équipe (CE6.02)",
           "description": "Travail en équipe avec un développeur senior, partage des connaissances et revue de code."
+        }
+      ]
+    },
+    {
+      "title": "Portfolio personnel – Présentation de développeur web",
+      "description": "Ce portfolio est une application web monopage développée avec SvelteKit pour présenter mes compétences, projets et expériences.<br>Il propose une interface responsive, fluide et animée pour mettre en valeur mon profil technique.",
+      "details": "Mon portfolio personnel a été conçu avec SvelteKit, un framework moderne et performant pensé pour la simplicité et la rapidité.<br>Il regroupe mes expériences, mes projets clés, et mes compétences dans une interface claire et interactive.<br><br>Le site est structuré en SPA (Single Page Application), avec un défilement fluide et des animations de transition pour améliorer l’expérience utilisateur.<br>Les compétences sont organisées en sections défilables horizontalement, et chaque projet dispose de son propre encart avec des détails complets.<br><br>Le projet m’a permis d’approfondir mes connaissances en front-end, notamment en Svelte, en animations, en composants réutilisables et en design responsive.",
+      "tags": ["SvelteKit", "Tailwind CSS", "SPA", "Frontend", "Portfolio", "Animation"],
+      "image": [
+        "/projectImages/Portfolio.png"
+      ],
+      "skills": [
+        {
+          "title": "Développer (Niveau 3) : Concevoir et implémenter une application web (CE1.01)",
+          "description": "Création complète d’un portfolio moderne et dynamique avec SvelteKit et Tailwind CSS."
+        },
+        {
+          "title": "Optimiser (Niveau 3) : Améliorer une interface web et l’expérience utilisateur (CE2.01)",
+          "description": "Ajout d’animations, transitions et d’un design responsive pour une navigation fluide sur tous les supports."
+        },
+        {
+          "title": "Présenter (Niveau 3) : Valoriser ses réalisations professionnelles (CE4.01)",
+          "description": "Organisation et mise en avant de mes projets et compétences de manière claire et structurée."
+        },
+        {
+          "title": "S’adapter (Niveau 2) : Apprendre et appliquer de nouvelles technologies (CE5.01)",
+          "description": "Découverte et utilisation de SvelteKit, intégration avancée de Tailwind CSS pour optimiser les performances."
+        },
+        {
+          "title": "Communiquer (Niveau 2) : Présenter des informations techniques de manière accessible (CE6.01)",
+          "description": "Rédaction de contenus explicites pour rendre mon parcours compréhensible à un large public."
+        }
+      ]
+    },
+    {
+      "title": "PanierVIP – Site de gestion de liste de courses",
+      "description": "Site web PHP/Symfony permettant la création, gestion et modification de listes de courses partagées, avec authentification, formulaire dynamique, et base de données MySQL.",
+      "details": "PanierVIP est un projet de site web développé avec PHP et Symfony, conçu pour permettre aux utilisateurs de créer, gérer et partager des listes de courses en ligne.<br>L’application propose une interface sécurisée avec authentification, un formulaire dynamique pour ajouter et modifier les éléments des listes, ainsi qu’une base de données MySQL pour la persistance des données.<br>Le projet inclut également la gestion des permissions pour que plusieurs utilisateurs puissent collaborer sur une même liste.<br>Ce travail m’a permis de me familiariser avec le framework Symfony, la gestion des formulaires, et la manipulation des bases de données relationnelles dans un contexte web.",
+      "tags": ["PHP", "Symfony", "MySQL", "Formulaires dynamiques", "Authentification"],
+      "image": [
+        "/projectImages/panierVIP.png"
+      ],
+      "skills": [
+        {
+          "title": "Réaliser (niveau 3) : Développer une application web complète (CE1.01)",
+          "description": "Création des entités Doctrine, formulaires Symfony dynamiques, et contrôleurs sécurisés."
+        },
+        {
+          "title": "Administrer (niveau 2) : Gérer la persistance des données relationnelles (CE3.01)",
+          "description": "Modélisation de la base de données MySQL et gestion des relations entre entités."
+        },
+        {
+          "title": "Gérer (niveau 2) : Assurer la gestion des accès et des rôles (CE4.02)",
+          "description": "Mise en place de la sécurité via les rôles utilisateurs et les restrictions d’accès."
+        },
+        {
+          "title": "Conduire (niveau 2) : Traduire un besoin fonctionnel en spécifications techniques (CE5.02)",
+          "description": "Analyse des besoins utilisateurs pour concevoir les fonctionnalités principales du site."
         }
       ]
     },
@@ -125,33 +183,6 @@
         {
           "title": "Conduire (niveau 2) : Identifier les besoins utilisateurs (CE5.01)",
           "description": "Compréhension du cahier des charges fourni dans la SAE, traduction en solutions algorithmiques."
-        }
-      ]
-    },
-    {
-      "title": "PanierVIP – Site de gestion de liste de courses",
-      "description": "Site web PHP/Symfony permettant la création, gestion et modification de listes de courses partagées, avec authentification, formulaire dynamique, et base de données MySQL.",
-      "details": "PanierVIP est un projet de site web développé avec PHP et Symfony, conçu pour permettre aux utilisateurs de créer, gérer et partager des listes de courses en ligne.<br>L’application propose une interface sécurisée avec authentification, un formulaire dynamique pour ajouter et modifier les éléments des listes, ainsi qu’une base de données MySQL pour la persistance des données.<br>Le projet inclut également la gestion des permissions pour que plusieurs utilisateurs puissent collaborer sur une même liste.<br>Ce travail m’a permis de me familiariser avec le framework Symfony, la gestion des formulaires, et la manipulation des bases de données relationnelles dans un contexte web.",
-      "tags": ["PHP", "Symfony", "MySQL", "Formulaires dynamiques", "Authentification"],
-      "image": [
-        "/projectImages/panierVIP.png"
-      ],
-      "skills": [
-        {
-          "title": "Réaliser (niveau 3) : Développer une application web complète (CE1.01)",
-          "description": "Création des entités Doctrine, formulaires Symfony dynamiques, et contrôleurs sécurisés."
-        },
-        {
-          "title": "Administrer (niveau 2) : Gérer la persistance des données relationnelles (CE3.01)",
-          "description": "Modélisation de la base de données MySQL et gestion des relations entre entités."
-        },
-        {
-          "title": "Gérer (niveau 2) : Assurer la gestion des accès et des rôles (CE4.02)",
-          "description": "Mise en place de la sécurité via les rôles utilisateurs et les restrictions d’accès."
-        },
-        {
-          "title": "Conduire (niveau 2) : Traduire un besoin fonctionnel en spécifications techniques (CE5.02)",
-          "description": "Analyse des besoins utilisateurs pour concevoir les fonctionnalités principales du site."
         }
       ]
     }

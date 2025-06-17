@@ -8,7 +8,7 @@
   "aboutMe": {
     "title": "About Me",
     "description": "Computer Science Student",
-    "presentation": "Hello, my name is Thomas Koenig, I’m 20 years old and currently in my second year of a Bachelor's in Computer Science at IUT Lyon 1.<br>I’ve been passionate about computer science for several years, with a strong interest in web and software development.<br>I’m also very involved in the world of virtual reality (VR), which I practice at a high level in competitive settings. This experience taught me teamwork, goal-setting, and perseverance.<br>Curious, autonomous, and detail-oriented, I enjoy learning new technologies and applying them in real-world projects, both personal and professional.<br>I’m currently seeking new opportunities to continue growing, tackle technical challenges, and contribute to innovative projects."
+    "presentation": "My name is Thomas Koenig, and I’m a second-year Computer Science student at IUT Lyon 1. Passionate about web and software development, I also compete in virtual reality (VR) at a high level, which has taught me teamwork and the drive to excel. Curious and self-reliant, I’m always looking to grow by taking on new technical challenges. I’m ready to contribute to concrete and innovative projects."
   },
 
   "dlCV": "Download My CV",
@@ -61,6 +61,64 @@
         {
           "title": "Collaborate (Level 2): Understand one's role in a team (CE6.02)",
           "description": "Worked in a team with a senior developer, sharing knowledge and performing code reviews."
+        }
+      ]
+    },
+    {
+      "title": "Personal Portfolio – Web Developer Showcase",
+      "description": "This portfolio is a single-page web application developed with SvelteKit to showcase my skills, projects, and experience.<br>It includes smooth animations, a responsive design, and a dynamic layout to highlight my work and technical profile.",
+      "details": "My personal portfolio is built using SvelteKit, a modern web framework designed for speed and simplicity.<br>It presents my background, featured projects, and skills through a clean, interactive interface.<br><br>The portfolio is structured as a single-page application (SPA), with smooth scrolling and transition animations for an optimal user experience.<br>Skills are showcased in horizontally scrollable sections, and each project has its own dedicated modal with detailed information.<br><br>I designed the interface to be both aesthetic and functional, with Tailwind CSS and accessibility in mind.<br>The site is fully responsive and optimized for performance, using lazy loading and minimal external dependencies.<br>This project allowed me to deepen my front-end skills, particularly in Svelte, animations, component reusability, and responsive design.",
+      "tags": ["SvelteKit", "Tailwind CSS", "SPA", "Frontend", "Portfolio", "Animation", "Responsive Design"],
+      "image": [
+        "/projectImages/Portfolio.png"
+      ],
+      "skills": [
+        {
+          "title": "Develop (Level 3): Design and implement a web application (CE1.01)",
+          "description": "Built a modern, dynamic web portfolio from scratch using SvelteKit and Tailwind CSS."
+        },
+        {
+          "title": "Optimize (Level 3): Improve web interface and user experience (CE2.01)",
+          "description": "Implemented animations, smooth transitions, and a responsive design for an optimal browsing experience."
+        },
+        {
+          "title": "Present (Level 3): Showcase professional achievements (CE4.01)",
+          "description": "Structured and highlighted personal and academic projects to reflect my technical skills and interests."
+        },
+        {
+          "title": "Adapt (Level 2): Learn and apply new technologies (CE5.01)",
+          "description": "Discovered and applied SvelteKit and advanced Tailwind concepts to build a performant site."
+        },
+        {
+          "title": "Communicate (Level 2): Share technical information clearly (CE6.01)",
+          "description": "Wrote clear descriptions and structured content to make my background and work easy to understand."
+        }
+      ]
+    },
+    {
+      "title": "PanierVIP – Shopping List Management Site",
+      "description": "PHP/Symfony website allowing creation, management, and editing of shared shopping lists, with authentication, dynamic forms, and MySQL database.",
+      "details": "PanierVIP is a website developed with PHP and Symfony that lets users create, manage, and share shopping lists online.<br>The app features a secure interface with authentication, dynamic forms to add/edit list items, and a MySQL database for data persistence.<br>It also includes permission management so multiple users can collaborate on the same list.<br>This project helped me get familiar with Symfony, form management, and relational databases in a web context.",
+      "tags": ["PHP", "Symfony", "MySQL", "Dynamic Forms", "Authentication"],
+      "image": [
+        "/projectImages/panierVIP.png"
+      ],
+      "skills": [
+        {
+          "title": "Develop (Level 3): Build a complete web application (CE1.01)",
+          "description": "Created Doctrine entities, dynamic Symfony forms, and secure controllers."
+        },
+        {
+          "title": "Administer (Level 2): Manage relational data persistence (CE3.01)",
+          "description": "Designed the MySQL database and managed entity relationships."
+        },
+        {
+          "title": "Manage (Level 2): Handle access control and roles (CE4.02)",
+          "description": "Implemented user roles and access restrictions."
+        },
+        {
+          "title": "Lead (Level 2): Translate a functional need into technical specifications (CE5.02)",
+          "description": "Analyzed user needs to design the core features of the site."
         }
       ]
     },
@@ -125,33 +183,6 @@
         {
           "title": "Lead (Level 2): Identify user needs (CE5.01)",
           "description": "Analyzed the specifications from the SAE and translated them into algorithmic solutions."
-        }
-      ]
-    },
-    {
-      "title": "PanierVIP – Shopping List Management Site",
-      "description": "PHP/Symfony website allowing creation, management, and editing of shared shopping lists, with authentication, dynamic forms, and MySQL database.",
-      "details": "PanierVIP is a website developed with PHP and Symfony that lets users create, manage, and share shopping lists online.<br>The app features a secure interface with authentication, dynamic forms to add/edit list items, and a MySQL database for data persistence.<br>It also includes permission management so multiple users can collaborate on the same list.<br>This project helped me get familiar with Symfony, form management, and relational databases in a web context.",
-      "tags": ["PHP", "Symfony", "MySQL", "Dynamic Forms", "Authentication"],
-      "image": [
-        "/projectImages/panierVIP.png"
-      ],
-      "skills": [
-        {
-          "title": "Develop (Level 3): Build a complete web application (CE1.01)",
-          "description": "Created Doctrine entities, dynamic Symfony forms, and secure controllers."
-        },
-        {
-          "title": "Administer (Level 2): Manage relational data persistence (CE3.01)",
-          "description": "Designed the MySQL database and managed entity relationships."
-        },
-        {
-          "title": "Manage (Level 2): Handle access control and roles (CE4.02)",
-          "description": "Implemented user roles and access restrictions."
-        },
-        {
-          "title": "Lead (Level 2): Translate a functional need into technical specifications (CE5.02)",
-          "description": "Analyzed user needs to design the core features of the site."
         }
       ]
     }
