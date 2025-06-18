@@ -69,7 +69,8 @@
       "description": "This portfolio is a single-page web application developed with SvelteKit to showcase my skills, projects, and experience.<br>It includes smooth animations, a responsive design, and a dynamic layout to highlight my work and technical profile.",
       "details": "My personal portfolio is built using SvelteKit, a modern web framework designed for speed and simplicity.<br>It presents my background, featured projects, and skills through a clean, interactive interface.<br><br>The portfolio is structured as a single-page application (SPA), with smooth scrolling and transition animations for an optimal user experience.<br>Skills are showcased in horizontally scrollable sections, and each project has its own dedicated modal with detailed information.<br><br>I designed the interface to be both aesthetic and functional, with Tailwind CSS and accessibility in mind.<br>The site is fully responsive and optimized for performance, using lazy loading and minimal external dependencies.<br>This project allowed me to deepen my front-end skills, particularly in Svelte, animations, component reusability, and responsive design.",
       "tags": ["SvelteKit", "Tailwind CSS", "SPA", "Frontend", "Portfolio", "Animation", "Responsive Design"],
-      "image": [
+      "link": "https://github.com/Thomkraft/MyPortfolio",
+      "image",: [
         "/projectImages/Portfolio.png"
       ],
       "skills": [
@@ -100,6 +101,7 @@
       "description": "PHP/Symfony website allowing creation, management, and editing of shared shopping lists, with authentication, dynamic forms, and MySQL database.",
       "details": "PanierVIP is a website developed with PHP and Symfony that lets users create, manage, and share shopping lists online.<br>The app features a secure interface with authentication, dynamic forms to add/edit list items, and a MySQL database for data persistence.<br>It also includes permission management so multiple users can collaborate on the same list.<br>This project helped me get familiar with Symfony, form management, and relational databases in a web context.",
       "tags": ["PHP", "Symfony", "MySQL", "Dynamic Forms", "Authentication"],
+      "link": "https://github.com/Thomkraft/PanierVip",
       "image": [
         "/projectImages/panierVIP.png"
       ],
