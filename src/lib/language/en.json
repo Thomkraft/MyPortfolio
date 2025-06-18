@@ -70,7 +70,7 @@
       "details": "My personal portfolio is built using SvelteKit, a modern web framework designed for speed and simplicity.<br>It presents my background, featured projects, and skills through a clean, interactive interface.<br><br>The portfolio is structured as a single-page application (SPA), with smooth scrolling and transition animations for an optimal user experience.<br>Skills are showcased in horizontally scrollable sections, and each project has its own dedicated modal with detailed information.<br><br>I designed the interface to be both aesthetic and functional, with Tailwind CSS and accessibility in mind.<br>The site is fully responsive and optimized for performance, using lazy loading and minimal external dependencies.<br>This project allowed me to deepen my front-end skills, particularly in Svelte, animations, component reusability, and responsive design.",
       "tags": ["SvelteKit", "Tailwind CSS", "SPA", "Frontend", "Portfolio", "Animation", "Responsive Design"],
       "link": "https://github.com/Thomkraft/MyPortfolio",
-      "image",: [
+      "image": [
         "/projectImages/Portfolio.png"
       ],
       "skills": [
