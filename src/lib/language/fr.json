@@ -35,16 +35,20 @@
   "projects": [
     {
       "title": "Studea - Application de gestion d'alternant",
-      "description": "Studea est une application web de gestion d’alternants développée avec Symfony et Vue.js. <br>Elle permet d’administrer les informations des alternants via une interface dynamique, avec lecture de fichiers CSV/XML, routes AJAX, gestion d’erreurs et affichage sous forme de tableaux modulables. L’ensemble a été conçu dans un environnement agile avec Git pour le suivi de version.",
-      "details": "Studea est une application web développée en Symfony (API) et Vue.js (frontend) visant à faciliter la gestion des alternants au sein d’une entreprise.<br>Elle centralise les informations des alternants et permet une manipulation dynamique des données via des interfaces modernes et interactives.<br><br>Durant mon stage, j’ai participé à l’ajout et à l’amélioration de nombreuses fonctionnalités, notamment l’implémentation de tableaux dynamiques liés à l’API Symfony,<br>l’utilisation de routes AJAX pour optimiser la réactivité de l’interface, ainsi que la lecture et le traitement automatisé de fichiers CSV et XML.<br>J’ai aussi travaillé sur la gestion d’erreurs côté frontend et backend pour améliorer la fiabilité de l’application.<br><br>J’ai contribué à rendre l’application plus ergonomique en adaptant l’interface utilisateur, et en intégrant des tests pour valider les nouvelles fonctionnalités.<br>Tout le projet s’est déroulé selon une méthode agile avec un suivi rigoureux via Git.<br>Cette expérience m’a permis de renforcer mes compétences fullstack tout en découvrant les enjeux d’une application métier dans un contexte professionnel.",
+      "description": "Studea est une application web de gestion d’alternants développée avec Symfony et Vue.js. <br>Elle permet d’administrer les informations des alternants via une interface dynamique, avec lecture de fichiers CSV/XML, routes AJAX, gestion d’erreurs et affichage sous forme de tableaux modulables. L’ensemble a été conçu dans un environnement agile avec Git pour le suivi de version.<br>Poursuivi en alternance, le projet s’est enrichi de deux nouveaux modules, inscriptions et facturation, ainsi que d’un travail de maintenance continue.",
+      "details": "Studea est une application web développée en Symfony (API) et Vue.js (frontend) visant à faciliter la gestion des alternants au sein d’une entreprise.<br>Elle centralise les informations des alternants et permet une manipulation dynamique des données via des interfaces modernes et interactives.<br><br>Durant mon stage, j’ai participé à l’ajout et à l’amélioration de nombreuses fonctionnalités, notamment l’implémentation de tableaux dynamiques liés à l’API Symfony,<br>l’utilisation de routes AJAX pour optimiser la réactivité de l’interface, ainsi que la lecture et le traitement automatisé de fichiers CSV et XML.<br>J’ai aussi travaillé sur la gestion d’erreurs côté frontend et backend pour améliorer la fiabilité de l’application.<br><br>J’ai contribué à rendre l’application plus ergonomique en adaptant l’interface utilisateur, et en intégrant des tests pour valider les nouvelles fonctionnalités.<br>Tout le projet s’est déroulé selon une méthode agile avec un suivi rigoureux via Git.<br>Cette expérience m’a permis de renforcer mes compétences fullstack tout en découvrant les enjeux d’une application métier dans un contexte professionnel.<br><br>Depuis septembre 2025, je poursuis ce projet en alternance : maintenance de l’application existante et développement de deux nouveaux modules, inscriptions et facturation.<br>Je participe également à des réunions hebdomadaires dans le cadre d’une méthode de développement agile, assurant le suivi et la priorisation des tâches avec l’équipe.",
       "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile", "Entreprise"],
       "image": [
         "/projectImages/studea.png"
       ],
       "skills": [
         {
-          "title": "Réaliser (niveau 3) : Faire évoluer une application existante (CE1.02)",
-          "description": "Ajout de nouvelles fonctionnalités dans un code existant (upload CSV, tableaux dynamiques, système de modèles)."
+          "title": "Réaliser (niveau 3) : Faire évoluer une application existante (AC31.02)",
+          "description": "Ajout de nouvelles fonctionnalités dans un code existant (upload CSV, tableaux dynamiques, système de modèles) et maintenance continue de l’application en alternance."
+        },
+        {
+          "title": "Réaliser (niveau 3) : Choisir et implémenter les architectures adaptées (AC31.01)",
+          "description": "Conception et développement des modules inscriptions et facturation, en intégration avec l’architecture Symfony/Vue.js existante."
         },
         {
           "title": "Optimiser (niveau 3) : Améliorer l’ergonomie d’une interface (CE2.01)",
@@ -57,6 +61,10 @@
         {
           "title": "Gérer (niveau 3) : Participer à une gestion de projet en entreprise (CE4.03)",
           "description": "Participation aux réunions avec le chef de projet et maître de stage, découpage des tâches avec Git."
+        },
+        {
+          "title": "Collaborer (niveau 3) : Accompagner le management de projet informatique (AC36.04)",
+          "description": "Participation à des réunions hebdomadaires en méthode agile pour le suivi et la priorisation des développements en alternance."
         },
         {
           "title": "Collaborer (niveau 2) : Situer son rôle dans une équipe (CE6.02)",

@@ -35,16 +35,20 @@
   "projects": [
     {
       "title": "Studea - Apprenticeship Management Application",
-      "description": "Studea is a web application for managing apprentices developed with Symfony and Vue.js.<br>It allows administrators to manage apprentice information through a dynamic interface with CSV/XML file reading, AJAX routes, error handling, and modular table displays. The entire project was developed in an agile environment using Git for version control.",
-      "details": "Studea is a web application developed with Symfony (API) and Vue.js (frontend) to facilitate apprentice management within a company.<br>It centralizes apprentice data and enables dynamic data manipulation through modern, interactive interfaces.<br><br>During my internship, I contributed to the addition and improvement of many features, including the implementation of dynamic tables connected to the Symfony API,<br>the use of AJAX routes to optimize interface responsiveness, and the automated processing of CSV and XML files.<br>I also worked on frontend and backend error handling to improve application reliability.<br><br>I helped make the application more ergonomic by adapting the user interface and integrating tests to validate new features.<br>The entire project followed an agile methodology with strict Git-based version tracking.<br>This experience strengthened my fullstack skills and gave me insight into the challenges of business applications in a professional context.",
+      "description": "Studea is a web application for managing apprentices developed with Symfony and Vue.js.<br>It allows administrators to manage apprentice information through a dynamic interface with CSV/XML file reading, AJAX routes, error handling, and modular table displays. The entire project was developed in an agile environment using Git for version control.<br>Continued during my work-study program, the project grew with two new modules, registrations and invoicing, along with ongoing maintenance work.",
+      "details": "Studea is a web application developed with Symfony (API) and Vue.js (frontend) to facilitate apprentice management within a company.<br>It centralizes apprentice data and enables dynamic data manipulation through modern, interactive interfaces.<br><br>During my internship, I contributed to the addition and improvement of many features, including the implementation of dynamic tables connected to the Symfony API,<br>the use of AJAX routes to optimize interface responsiveness, and the automated processing of CSV and XML files.<br>I also worked on frontend and backend error handling to improve application reliability.<br><br>I helped make the application more ergonomic by adapting the user interface and integrating tests to validate new features.<br>The entire project followed an agile methodology with strict Git-based version tracking.<br>This experience strengthened my fullstack skills and gave me insight into the challenges of business applications in a professional context.<br><br>Since September 2025, I have continued this project as part of my work-study program (alternance): maintaining the existing application and developing two new modules, registrations and invoicing.<br>I also take part in weekly meetings as part of an agile development methodology, helping track and prioritize tasks with the team.",
       "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile", "Company"],
       "image": [
         "/projectImages/studea.png"
       ],
       "skills": [
         {
-          "title": "Develop (Level 3): Enhance an existing application (CE1.02)",
-          "description": "Added new features to existing code (CSV upload, dynamic tables, template system)."
+          "title": "Develop (Level 3): Enhance an existing application (AC31.02)",
+          "description": "Added new features to existing code (CSV upload, dynamic tables, template system) and carried out ongoing maintenance of the application during my work-study program."
+        },
+        {
+          "title": "Develop (Level 3): Choose and implement suitable architectures (AC31.01)",
+          "description": "Designed and developed the registrations and invoicing modules, integrating them with the existing Symfony/Vue.js architecture."
         },
         {
           "title": "Optimize (Level 3): Improve interface ergonomics (CE2.01)",
@@ -57,6 +61,10 @@
         {
           "title": "Manage (Level 3): Contribute to project management in a company (CE4.03)",
           "description": "Participated in meetings with the project lead and mentor, and task breakdown using Git."
+        },
+        {
+          "title": "Collaborate (Level 3): Support IT project management (AC36.04)",
+          "description": "Took part in weekly agile meetings to track and prioritize development work during the work-study program."
         },
         {
           "title": "Collaborate (Level 2): Understand one's role in a team (CE6.02)",
