@@ -191,6 +191,15 @@
   ],
 "experiences": [
     {
+      "title": "EffetB - Alternance Développement Full Stack",
+      "date": "Septembre 2025 - Septembre 2026",
+      "description": "Maintenance et développement de l’application de gestion d’alternants.<br>Développement de deux nouveaux modules : inscriptions et facturation.<br>Participation à des réunions hebdomadaires dans le cadre d’une méthode de développement agile.",
+      "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile"],
+      "image": [
+        "/projectImages/effetB.png"
+      ]
+    },
+    {
       "title": "EffetB - Stage Developpement Web",
       "date": "14 Avril 2025 - 11 Juillet 2025",
       "description": "Participation au développement d’une application de gestion d’alternants utilisant Symfony et Vue.js.<br>Mise en place de tableaux dynamiques avec Symfony et gestion efficace des routes AJAX.<br>Implémentation du traitement de fichiers CSV et XML, avec une gestion rigoureuse des erreurs et des tests.<br>Optimisation de l’ergonomie pour une meilleure expérience utilisateur.<br>Travail en méthode agile, avec un suivi de projet et gestion du versioning via Git.",

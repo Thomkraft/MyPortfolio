@@ -191,6 +191,15 @@
   ],
   "experiences": [
     {
+      "title": "EffetB - Full Stack Development Work-Study Program (Alternance)",
+      "date": "September 2025 – September 2026",
+      "description": "Maintained and developed the apprentice management application.<br>Developed two new modules: registrations and invoicing.<br>Took part in weekly meetings as part of an agile development methodology.",
+      "tags": ["Symfony", "PHP", "JavaScript", "VueJs", "Git", "Agile"],
+      "image": [
+        "/projectImages/effetB.png"
+      ]
+    },
+    {
       "title": "EffetB - Web Development Internship",
       "date": "April 14, 2025 – July 11, 2025",
       "description": "Contributed to the development of an apprentice management app using Symfony and Vue.js.<br>Implemented dynamic tables with Symfony and efficient AJAX route handling.<br>Processed CSV and XML files with rigorous error management and testing.<br>Optimized UI for better user experience.<br>Worked in agile methodology with version control through Git.",
